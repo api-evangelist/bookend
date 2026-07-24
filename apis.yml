@@ -1,7 +1,17 @@
 aid: bookend
-name: Bookend
-description: Bookend is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Bookend AI
+description: >-
+  Bookend AI is a healthcare automation company building a Gastroenterology
+  Practice Automation Platform that combines Payer Policy Intelligence with
+  intelligent workflow automation. Its Universal Policy Library aggregates and
+  interprets prior authorization, eligibility, benefits, and reimbursement
+  requirements from hundreds of medical and pharmacy payers, and its Benefits,
+  Coverage, and Authorization Assistants automate eligibility verification,
+  coverage triage, and prior-authorization creation, submission, and tracking to
+  reduce claim denials, accelerate care, and improve practice margins across
+  specialty pharmacy, infusion, procedures, and imaging service lines. Bookend
+  AI is a Seedcamp portfolio company; this API Evangelist profile was enriched
+  from the company's public website.
 url: https://raw.githubusercontent.com/api-evangelist/bookend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/670467fbde74d71d7606d96b/69f584100a01ffc181694697_Logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Prior Authorization
+- Revenue Cycle Management
+- Payer Intelligence
+- Workflow Automation
+- Gastroenterology
+- Artificial Intelligence
+- Specialty Pharmacy
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bookend-domain-security.yml
 - type: Website
-  url: http://bookend.ai
+  url: https://bookend.ai
+- type: About
+  url: https://www.bookend.ai/about-us
+- type: Blog
+  url: https://www.bookend.ai/blog
+- type: Support
+  url: https://www.bookend.ai/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
